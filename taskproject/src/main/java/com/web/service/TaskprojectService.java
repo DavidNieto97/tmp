@@ -1,4 +1,4 @@
-package com.service;
+package com.web.service;
 
 public class TaskprojectService {
 }

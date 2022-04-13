@@ -1,4 +1,4 @@
-package com.dao;
+package com.web.dao;
 
 public class TaskprojectDao {
 }
