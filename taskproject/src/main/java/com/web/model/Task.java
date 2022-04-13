@@ -8,8 +8,6 @@ public class Task {
     private LocalDate begDate;
     private LocalDate endDate;
     private long assignedTo;
-    private String status;
+    private TaskStatus status;
     private String comments;
-    private String move;
-
 }
