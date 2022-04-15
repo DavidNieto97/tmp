@@ -3,9 +3,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
     <head>
-        <title>Add Book</title>
+        <title>Main</title>
+        <link href="main.css" rel="stylesheet"/>
+
     </head>
     <body>
-      Hello World
+      <p class="main"> Starting </p>
+      <script src="main.js"></script>
     </body>
 </html>
