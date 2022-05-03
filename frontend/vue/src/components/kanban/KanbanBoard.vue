@@ -171,9 +171,12 @@ const handleEditCard = (type, selectedCard) => {
 </script>
 
 <template>
+<a href="/logout" >Cerrar sesion</a>
   <div
     class="flex h-full w-full overflow-auto rounded-lg bg-[#F2F3F9] px-2 py-3"
   >
+
+   
     <TransitionGroup name="list">
       <div
         v-for="container in vuello.containers"
@@ -231,6 +234,7 @@ const handleEditCard = (type, selectedCard) => {
                   v-if="card.is_editing_card"
                   class="flex w-full flex-col rounded-md border-gray-400 bg-white"
                 >
+                 
                   <input
                     v-model="card.title"
                     type="text"

@@ -8,8 +8,6 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @SpringBootApplication(scanBasePackages = "com.web.controller")
-//@EnableWebMvc
-
 public class InitApp extends SpringBootServletInitializer {
 
 	@Override
