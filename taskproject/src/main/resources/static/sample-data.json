@@ -1,0 +1,34 @@
+{
+  "title": "Board Title",
+  "last_modified": "23/03/2022, 06:42:32",
+  "containers": [
+    {
+      "id": 1,
+      "name": "Pendiente",
+      "is_editing_container": false,
+      "is_adding_card": false
+    },
+    {
+      "id": 2,
+      "name": "Todo",
+      "is_editing_container": false,
+      "is_adding_card": false
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "id_container": 1,
+      "title": "Tarea 1",
+      "content": "prueba 1.",
+      "is_editing_card": false
+    },
+    {
+      "id": 2,
+      "id_container": 1,
+      "title": "Tarea 2",
+      "content": "prueba 2",
+      "is_editing_card": false
+    }
+  ]
+}
