@@ -19,6 +19,20 @@
   a. Servidores de aplicación, web, bases de datos, etc.<br />
   b. Paquetes adicionales.<br />
   c. Versión de Java, etc.
+ 
+     Cubriendo los 3 incisos:
+     Programas:
+     - JDK 1.8 Java
+     - Intel IDEA
+     - Windows Terminal
+     - Github Desktop
+     Paquetes:
+     - Spring MVC
+     - Lombok
+     - JUnit
+     - MySQL-Firebase
+     - Tomcat
+     
   
 # 3. Instalación:
   a. ¿Cómo instalar el ambiente de desarrollo?<br />
@@ -45,8 +59,18 @@
       - Asignar rol a usuario. <br />
       
 # 5. Uso:
-  a. Sección de referencia para usuario final. Manual que se hará referencia para usuarios finales. <br />
-  b. Sección de referencia para usuario administrador. <br /><br />
+  a. Sección de referencia para usuario final. Manual que se hará referencia para usuarios finales. <br /> <br />
+    En esta sección describimos el uso general de la aplicación. <br />
+  - Para poder hacer uso del cualquier modulo deberá registrarse con una cuenta de usuario, además deberá actualizar la información de perfil con la intención de           que al crear cualquier actividad en el sistema las opciones disponibles son crear usuarios, crear proyectos, agregar tareas a proyecto, asignar proyecto a             usuario. <br />
+  - Para poder dar de alta cada proyecto debemos registrar todas las opciones que el proyecto requiere, hito, encargado, tareas, y fechas y descripciones. <br />
+  - Como todo sistema administrador de información los detalles de cada proyecto deben ser concretos de manera que al leer cada tarea sea sencillo comprender el que se     debe hacer las tareas deben ser creadas pensando en que son una parte de la tarea total. <br /> <br />
+  Ejemplo si la tarea es volcar una cantidad de usuarios podríamos proponer el siguiente flujo: <br />
+  - Cargar usuarios, validar usuarios, procesar usuarios, resumen de proceso.  <br />
+  Esta sería la manera más eficiente al usar la aplicación, porque se guardaría la información útil para el desarrollo de un proyecto, es decir, nuestro sistema         administra la información relevante de un proyecto de cualquier tema. <br />
+
+  b. Sección de referencia para usuario administrador. <br />
+      - Acceso root al sistema de usuarios.<br />
+      - Acceso a los archivos de configuración. <br /><br />
   
 # 6. Contribucion:
   a. Guía de contribución para usuarios. <br />
